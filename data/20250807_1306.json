@@ -1,0 +1,25 @@
+[
+  {
+    "source": "linkedin",
+    "raw": {
+      "title": "Cybersecurity Engineer",
+      "location": "Colorado Springs, CO",
+      "clearance": "Secret",
+      "tools": ["RMF", "STIG", "NESSUS"
+      ]
+    },
+    "classification": "likely",
+    "reason": "Location and tools match known GBSD Cyber IPT teams"
+  },
+  {
+    "source": "jobboard",
+    "raw": {
+      "title": "Test Engineer (ICBM)",
+      "location": "Hill AFB, UT",
+      "clearance": "Top Secret",
+      "tools": ["C2SIM", "DOORS"]
+    },
+    "classification": "direct",
+    "reason": "Title and tools directly align with GBSD C2 simulation systems"
+  }
+]
