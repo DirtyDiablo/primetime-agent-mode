@@ -1,0 +1,8 @@
+{
+  "Program Manager": ["TBD"],
+  "Service Delivery Managers": [{"location":"Adelphi, MD","name":"Jane Smith"}],
+  "Site Leads": [{"location":"Aberdeen, MD","name":"Robert Lee"}],
+  "Shift Leads": [],
+  "Process Owners": [],
+  "ServiceNow Admins/Developers": []
+}
