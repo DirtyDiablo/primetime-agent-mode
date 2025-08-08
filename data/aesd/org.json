@@ -1,8 +1,32 @@
-﻿{
-  "Program Manager": ["TBD"],
-  "Service Delivery Managers": [{"location":"Adelphi, MD","name":"Jane Smith"}],
-  "Site Leads": [{"location":"Aberdeen, MD","name":"Robert Lee"}],
-  "Shift Leads": [],
-  "Process Owners": [],
-  "ServiceNow Admins/Developers": []
+{
+  "Sites": [
+    {
+      "site": "Aberdeen, MD",
+      "shift": "Day",
+      "openings": 1,
+      "title_counts": {
+        "manager_like": 1
+      },
+      "inferred_chain": {
+        "Program Manager": "TBD",
+        "Service Delivery Manager": "Present",
+        "Site Lead": "Gap",
+        "Shift Lead": "Gap"
+      }
+    },
+    {
+      "site": "Adelphi, MD",
+      "shift": "Night",
+      "openings": 1,
+      "title_counts": {
+        "tech": 1
+      },
+      "inferred_chain": {
+        "Program Manager": "TBD",
+        "Service Delivery Manager": "Gap",
+        "Site Lead": "Gap",
+        "Shift Lead": "Present"
+      }
+    }
+  ]
 }
